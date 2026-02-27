@@ -55,21 +55,4 @@ http://127.0.0.1:5000/
 ```
 Enter the required features (Cloud Cover, Annual Rainfall, Jan-Feb Rainfall, etc.) and hit predict to see the flood risk assessment.
 
-## API Documentation
-The application also exposes a RESTful API.
 
-- **Endpoint**: `POST /predict`
-- **Payload** (JSON or Form-Data):
-  - `cloud_cover`
-  - `annual`
-  - `jan_feb`
-  - `mar_may`
-  - `jun_sep`
-- **Response**:
-  ```json
-  {
-      "prediction": 1,
-      "label": "Flood Risk",
-      "confidence": 92.45
-  }
-  ```
